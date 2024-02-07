@@ -27,4 +27,5 @@ html, body {
     color: white; /* Set the color of the footer text to white */
     text-align: center; /* Center the footer text */
     float: left;
+    z-index: 1111;
   }
