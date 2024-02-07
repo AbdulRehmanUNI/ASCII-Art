@@ -19,18 +19,7 @@ html, body {
     min-width: 50%;
     min-height: 100%;
  }
- @media (max-width: 600px) {
-    #live-video {
-      display: none;
-    }
-  
-    #ascii-container {
-      flex: 1;
-      min-width: 50%;
-      min-height: 100%;
 
-    }
-  }
   #footer {
     position: absolute; /* Position the footer absolutely within the live video container */
     bottom: 0; /* Align the footer to the bottom of the live video container */
