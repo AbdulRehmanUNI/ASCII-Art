@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Courier';
+    color: #FFF;
+    font-size: 12pt;
+    line-height: 10pt;
+  }
+  
+  canvas {
+    display: block;
+  }
+ #live-video{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 50%;
+    min-height: 100%;
+ }
+ @media (max-width: 600px) {
+    #live-video {
+      display: none;
+    }
+  
+    #ascii-container {
+      flex: 1;
+      min-width: 50%;
+      min-height: 100%;
+
+    }
+  }
+  #footer {
+    position: absolute; /* Position the footer absolutely within the live video container */
+    bottom: 0; /* Align the footer to the bottom of the live video container */
+    width: 100%; /* Make the footer span the full width of the live video container */
+    color: white; /* Set the color of the footer text to white */
+    text-align: center; /* Center the footer text */
+    float: left;
+  }
